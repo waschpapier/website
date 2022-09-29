@@ -239,7 +239,7 @@ Waschpapier™ ist das geniale, klimafreundliche Waschmittel in Blatt-Form, bequ
       </svg>
     </div>
     
-    <p class="mt-[1em] text-[0.9375rem] xxs:text-[1.125em] xs:text-[1.22rem] sm:text-[1.4rem] leading-[1.25] text-center text-white"><a href="" class="underline underline-offset-2">Impressum</a> | <a href="" class="hover:underline underline-offset-2">Datenschutz</a></p>
+    <p class="mt-[1em] text-[0.9375rem] xxs:text-[1.125em] xs:text-[1.22rem] sm:text-[1.4rem] leading-[1.25] text-center text-white"><a href="#impressum" class="underline underline-offset-2">Impressum</a> | <a href="" class="hover:underline underline-offset-2">Datenschutz</a></p>
   </div>
   
   <div class="m-auto relative top-[1vw] bg-[#fcfcfc] w-[16vw] h-[8vw] rounded-tl-full rounded-tr-full"></div>
@@ -249,14 +249,18 @@ Waschpapier™ ist das geniale, klimafreundliche Waschmittel in Blatt-Form, bequ
   
   <div class="w-full bg-gradient-to-b from-[#fcfcfc] to-[#f4f4f4] shadow-inner">
     <div class="w-full text-[0.675rem] xxs:text-[0.825rem] xs:text-[0.875rem] sm:text-[1.25rem] p-[6.5vw] shadow-inner pt-[12vw] pb-[14vw] landscape:pt-[8vw] landscape:pb-[7.5vw] xl:pt-[8vw] xl:pb-[10vw]">
-    <h2 class="font-black text-[#0b456e] text-[1.375rem] xxs:text-[1.5rem] xs:text-[1.625rem] sm:text-[2rem] leading-[1.5] mb-[0.75em] text-[#555] antialiased">Impressum</h2>
+
+    <h2 id="impressum" class="font-black text-[#0b456e] text-[1.375rem] xxs:text-[1.5rem] xs:text-[1.625rem] sm:text-[2rem] leading-[1.5] mb-[0.75em] text-[#555] antialiased">Impressum</h2>
     
     <div class="flex flex-wrap">
       <div class="w-full xl:w-1/2">
         <h3 class="font-medium text-[#555] antialiased">Nest Ventures GmbH</h3>
         <p class="text-[#333] antialiased mb-[1.5em]">Fleischmarkt 16&thinsp;/&thinsp;1&thinsp;/&thinsp;O<br>
         1010 Wien</p>
-        <p>Geschäftsführer: Andreas Pizsa</p>
+        <dl class="text-[#333] antialiased">
+          <dt class="font-medium text-[#555]">UID</dt> <dd class="mb-[0.5em]">ATU77895529</dd>
+          <dt class="font-medium text-[#555]">Geschäftsführer</dt> <dd class="mb-[0.5em]">Andreas Pizsa</dd>
+        </dl>
       </div>
       <div class="w-full xl:w-1/2">
         <dl class="text-[#333] antialiased">
