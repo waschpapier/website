@@ -256,6 +256,7 @@ Waschpapier™ ist das geniale, klimafreundliche Waschmittel in Blatt-Form, bequ
         <h3 class="font-medium text-[#555] antialiased">Nest Ventures GmbH</h3>
         <p class="text-[#333] antialiased mb-[1.5em]">Fleischmarkt 16&thinsp;/&thinsp;1&thinsp;/&thinsp;O<br>
         1010 Wien</p>
+        <p>Geschäftsführer: Andreas Pizsa</p>
       </div>
       <div class="w-full xl:w-1/2">
         <dl class="text-[#333] antialiased">
