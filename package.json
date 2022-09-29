@@ -1,0 +1,24 @@
+{
+  "name": "kirby-vite-basic-kit",
+  "version": "2.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "vite": "vite",
+    "dev": "shx touch src/.lock && concurrently \"npm:server\" \"npm:vite\"",
+    "server": "php -S localhost:8888 -t public server.php",
+    "build": "shx rm -f src/.lock && vite build",
+    "preview": "npm run build && npm run server"
+  },
+  "author": "arnoson",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.4",
+    "autoprefixer": "^10.4.7",
+    "concurrently": "^7.1.0",
+    "postcss": "^8.4.14",
+    "shx": "^0.3.4",
+    "tailwindcss": "^3.1.6",
+    "vite": "^3.0.0",
+    "vite-plugin-live-reload": "^3.0.0"
+  }
+}

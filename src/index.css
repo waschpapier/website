@@ -1,0 +1,40 @@
+/* Waschpapier */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* OpenSauce Regular */
+@font-face {
+  font-family: 'OpenSauce';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/OpenSauceTwo-Regular.woff2');
+}
+
+/* OpenSauce Medium */
+@font-face {
+  font-family: 'OpenSauce';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/fonts/OpenSauceTwo-Medium.woff2');
+}
+
+/* OpenSauce Bold */
+@font-face {
+  font-family: 'OpenSauce';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/OpenSauceTwo-Bold.woff2');
+}
+
+/* OpenSauce Black */
+@font-face {
+  font-family: 'OpenSauce';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/assets/fonts/OpenSauceTwo-Black.woff2');
+}
+
+html {
+  font-family: "OpenSauce", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
